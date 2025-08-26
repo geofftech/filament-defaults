@@ -2,3 +2,4 @@
 
 - filament default settings and modules
 - geofftech/filament-tools
+- geofftech/laravel-defaults
