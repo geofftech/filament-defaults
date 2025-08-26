@@ -1,5 +1,12 @@
 # GeoffTech - Filament defaults
 
-- filament default settings and modules
-- geofftech/filament-tools
+config
+
+- date format on columns
+- limit text length to 255
+- persist table filters
+
+packages
+
 - geofftech/laravel-defaults
+- geofftech/filament-tools
