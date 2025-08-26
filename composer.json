@@ -5,7 +5,8 @@
   "require": {
     "filament/filament": "^4",
     "geofftech/filament-tools": "^2.0",
-    "geofftech/laravel-defaults": "^1.0"
+    "geofftech/laravel-defaults": "^1.0",
+    "geofftech/filament-timezone": "^1.0"
   },
   "require-dev": {
     "laravel/pint": "^1.22"

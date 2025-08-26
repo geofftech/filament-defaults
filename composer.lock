@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "84d9acaee6e720940cdfd10ee8df2fff",
+    "content-hash": "88e09323f9671817380bbd226e79b220",
     "packages": [
         {
             "name": "anourvalar/eloquent-serialize",
@@ -1499,6 +1499,58 @@
                 }
             ],
             "time": "2023-10-12T05:21:21+00:00"
+        },
+        {
+            "name": "geofftech/filament-timezone",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/geofftech/filament-timezone.git",
+                "reference": "191cef5ed402dc9a29c21b833ef123e9f2630fce"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/geofftech/filament-timezone/zipball/191cef5ed402dc9a29c21b833ef123e9f2630fce",
+                "reference": "191cef5ed402dc9a29c21b833ef123e9f2630fce",
+                "shasum": ""
+            },
+            "require": {
+                "filament/filament": "^4"
+            },
+            "require-dev": {
+                "laravel/pint": "^1.22"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "GeoffTech\\FilamentTimezone\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/helpers.php"
+                ],
+                "psr-4": {
+                    "GeoffTech\\FilamentTimezone\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Geoff",
+                    "email": "geoff@geofftech.com"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/geofftech/filament-timezone/issues",
+                "source": "https://github.com/geofftech/filament-timezone/tree/1.0.0"
+            },
+            "time": "2025-08-26T10:47:39+00:00"
         },
         {
             "name": "geofftech/filament-tools",

@@ -10,3 +10,4 @@ packages
 
 - geofftech/laravel-defaults
 - geofftech/filament-tools
+- geofftech/filament-timezone
