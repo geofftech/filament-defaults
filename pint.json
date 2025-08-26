@@ -1,0 +1,10 @@
+{
+  "preset": "laravel",
+  "rules": {
+    "single_line_empty_body": true,
+    "not_operator_with_successor_space": false,
+    "types_spaces": { "space": "single" },
+    "concat_space": { "spacing": "one" },
+    "function_declaration": { "closure_fn_spacing": "none" }
+  }
+}
