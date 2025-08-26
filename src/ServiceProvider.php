@@ -1,6 +1,6 @@
 <?php
 
-namespace GeoffTech\FilamentTimezone;
+namespace GeoffTech\FilamentDefaults;
 
 use Filament\Forms\Components\DatePicker;
 use Filament\Forms\Components\TextInput;
